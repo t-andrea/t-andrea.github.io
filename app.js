@@ -6,10 +6,10 @@ var main = function() {
    
   $('.icon-menu').click(function() {
 	  if( isOpen == false ) {
-		  openMenu;
+		  openMenu();
 		  isOpen = true;
 	  } else {
-		  closeMenu;
+		  closeMenu();
 		  isOpen = false;
 	  }
     
@@ -17,7 +17,7 @@ var main = function() {
 
   /* Then push them back */
   $('.icon-close').click(function() {
-    closeMenu;
+    closeMenu();
   });
 };
 
