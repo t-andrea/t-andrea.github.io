@@ -49,8 +49,7 @@ a small {
 .menu {
   background: #202024;
   left: -285px;  /* start off behind the scenes */
-  height: 100%;
-  position: fixed;
+    position: fixed;
   width: 285px;
 }
 .icon-close {
