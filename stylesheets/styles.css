@@ -32,6 +32,10 @@ h3, h4, h5, h6 {
   color:#494949;
 }
 
+img {
+  height: 500px;
+}
+
 a {
   color:#39c;
   font-weight:400;
@@ -94,7 +98,7 @@ th {
 
 img {
   max-width:100%;
-  border-radius: 25px;
+  border-radius: 10px;
   
 }
 
@@ -166,7 +170,7 @@ section {
   width:500px;
   float:right;
   padding-bottom:50px;
-  background-color: #C9F;
+  padding-top: 25px;
 }
 
 small {
